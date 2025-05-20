@@ -21,7 +21,7 @@ function Card() {
   return (
     <section className="cards-section flex justify-center w-full my-10">
       <div className="cards-content w-[80%]">
-        <h1>Top Categories of The month</h1>
+        <h1 className="text-2xl">Top Categories of The month</h1>
         <hr />
         <div className="cards-list flex gap-8 justify-center items-center flex-wrap ">
           {products.map((item, index) => (
