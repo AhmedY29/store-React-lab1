@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center w-full mt-10">
-      <div className="footer-content flex justify-between items-center w-[80%]  bg-gray-100 rounded-2xl p-4">
+      <div className="footer-content flex flex-col lg:flex-row justify-between items-center w-[80%]  bg-gray-100 rounded-2xl p-4">
         <div className="footer-text">
           <h1>Bose Bluetooth Wireless Heeadphones</h1>
           <p>
