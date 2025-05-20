@@ -17,6 +17,22 @@ function Card() {
       img: "https://m.media-amazon.com/images/I/515tLyCgdXL._AC_SX679_.jpg",
       desc: "Microsoft Xbox Series X Gaming Console, 1Tb, Black (KSA Version)",
     },
+    {
+      title: "SAPPHERO Octagon",
+      img: "https://m.media-amazon.com/images/I/71RFPVd94jL._AC_SX679_.jpg",
+      desc: "SAPPHERO Octagon Men's Watch, Waterproof 30 m Analogue Quartz Watch",
+    },
+
+    {
+      title: "Songmics Office Chair",
+      img: "https://m.media-amazon.com/images/I/71lkcaY+pbL._AC_SY300_SX300_.jpg",
+      desc: "Gaming Chair, Desk Chair, Computer Chair, Swivel Chair With Tilting Mechanism, Work Chair",
+    },
+    {
+      title: "Mouniubull",
+      img: "https://m.media-amazon.com/images/I/41hh4qRhZNL._AC_SX522_.jpg",
+      desc: "Mouniubull New fashion brand hoodie craft metal heavy loose sweater men's clothing",
+    },
   ];
   return (
     <section className="cards-section flex justify-center w-full my-10">
@@ -34,10 +50,11 @@ function Card() {
                 alt=""
                 className="object-contain"
                 width={100}
+                height={100}
               />
               <div className="text">
-                <h1>{item.title}</h1>
-                <h1>{item.desc}</h1>
+                <h1 className="mb-2">{item.title}</h1>
+                <h1 className="font-light">{item.desc}</h1>
               </div>
             </div>
           ))}
